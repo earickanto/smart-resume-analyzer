@@ -1,0 +1,91 @@
+╔════════════════════════════════════════════════════════════════╗
+║     SMART RESUME ANALYZER - QUICK START GUIDE                 ║
+╚════════════════════════════════════════════════════════════════╝
+
+✅ BOTH SERVERS ARE ALREADY RUNNING!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📍 ACCESS THE APPLICATION:
+
+   Frontend:  http://localhost:8080
+   Backend:   http://localhost:5000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 GETTING STARTED:
+
+1. Open http://localhost:8080 in your browser
+
+2. Click "Sign Up" to create an account
+   - Enter any name, email, and password
+   - Click "Sign Up"
+
+3. After login, click "New Analysis"
+   - Upload a PDF resume
+   - Paste a job description
+   - Click "Analyze Resume"
+
+4. View your results:
+   - Resume score (0-100)
+   - Matching percentage
+   - Matched skills
+   - Missing skills
+   - Improvement suggestions
+   - Download report
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 FEATURES:
+
+✓ User Authentication (Signup/Login with JWT)
+✓ Resume PDF Upload & Text Extraction
+✓ AI-Powered Resume Analysis
+✓ Job Description Matching
+✓ Skill Gap Identification
+✓ Resume Scoring (0-100)
+✓ Matching Percentage Calculation
+✓ Improvement Suggestions
+✓ Downloadable Reports
+✓ Dashboard with Statistics
+✓ Responsive Mobile Design
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 RUNNING SERVERS:
+
+Backend:   Terminal 7  - Node.js on port 5000
+Frontend:  Terminal 10 - Python HTTP on port 8080
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💾 DATA STORAGE:
+
+Users:     app/backend/data/users.json
+Reports:   app/backend/data/reports.json
+Uploads:   app/backend/uploads/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ TROUBLESHOOTING:
+
+If frontend doesn't load:
+  → Clear browser cache
+  → Refresh the page
+  → Check http://localhost:8080
+
+If backend errors:
+  → Check terminal 7 for error messages
+  → Verify port 5000 is available
+
+If upload fails:
+  → Ensure file is a valid PDF
+  → Check file size (max 10MB)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 READY TO USE!
+
+Open http://localhost:8080 and start analyzing resumes!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
